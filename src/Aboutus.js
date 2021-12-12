@@ -12,10 +12,10 @@ const Aboutus = () => {
               <img src="./images/hero3.jpg" alt="aboutusIMg" />
             </div>
 
-            {/* 1section right side data  */}
+            {/* 1st section right side data  */}
             <div className="col-12 col-lg-7 our-services-list">
               <h3 className="mini-title">
-                -- AVAILABLE @ GOOGLE AND IOS APP STORE ONLY
+                -- AVAILABLE ON GOOGLE AND APPLE STORE ONLY
               </h3>
               <h1 className="main-heading">How to use the App?</h1>
 
@@ -41,12 +41,12 @@ const Aboutus = () => {
         </div>
       </section>
 
-      {/* 2nd part of bayt us section  */}
+      {/* 2nd part of about us section  */}
 
       <section className="common-section our-services our-services-rightside">
         <div className="container mb-5">
           <div className="row">
-            {/* 1section right side data  */}
+            {/* 1st section right side data  */}
             <div className="col-12 col-lg-7 our-services-rightside-content d-flex justify-content-center align-items-start flex-column">
               <h3 className="mini-title">-- SUPPORT AVAILABLE IN ANY LANGUAGE</h3>
               <h1 className="main-heading">

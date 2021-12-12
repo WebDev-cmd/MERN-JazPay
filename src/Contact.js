@@ -24,8 +24,8 @@ const Contact = () => {
     const { firstName, lastName, phone, email, address, message } = userData;
 
     if (firstName && lastName && phone && email && address && message) {
-      const res = fetch(
-        "https://reactfirebasewebsite-default-rtdb.firebaseio.com/userDataRecords.json",
+      const res = await fetch(
+        "https://reactfirebasecomplete-default-rtdb.firebaseio.com/userDataRecords.json",
         {
           method: "POST",
           headers: {
@@ -53,10 +53,10 @@ const Contact = () => {
         });
         alert("Data Stored");
       } else {
-        alert("Please fill the data");
+        alert("Please fill the data in all the fields");
       }
     } else {
-      alert("Please fill the data");
+      alert("Please fill the data in all the fields");
     }
   };
 
