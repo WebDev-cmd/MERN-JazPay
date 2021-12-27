@@ -25,7 +25,9 @@ const Contact = () => {
 
     if (firstName && lastName && phone && email && address && message) {
       const res = await fetch(
-        "https://reactfirebasecomplete-default-rtdb.firebaseio.com/userDataRecords.json",
+        // "https://reactfirebasejazpay-default-rtdb.firebaseio.com/userDataRecords.json",
+        "https://reactfirebasejazpay-default-rtdb.firebaseio.com/userDataRecords.json",
+
         {
           method: "POST",
           headers: {
