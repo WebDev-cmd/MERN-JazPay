@@ -2,7 +2,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 
+
 const Footer = () => {
+  let getYear = () => {
+    let currentYear = new Date().getFullYear();
+    return currentYear;
+  }
+
   return (
     <>
       <footer>
@@ -104,11 +110,20 @@ const Footer = () => {
                 </div>
               </div>
               <hr />
-              <div className="mt-5">
+              {/* <div className="mt-5">
                 <p className="main-hero-para text-center w-100">
-                  Copyright @ 2021 JazPay. All rights reserved.
+                  All rights reserved @JazPay
                 </p>
-              </div>
+              </div> */}
+                <div>
+                <div className="mt-5">
+                <p className="main-hero-para text-center w-100">
+                    Copyright &copy;
+                    <span> {getYear()}</span>
+                
+                </p>
+            </div>
+    </div>
             </div>
           </div>
         </div>
