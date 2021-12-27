@@ -1,1 +1,1 @@
-This website shows a complete landing page in React.
+This website shows a complete landing page in React and stores the data entered by customer in Firebase .
